@@ -1,3 +1,4 @@
+#---Calculadora de Frete---
 def calcular_frete(peso):
     if peso <=20:
         valorporkm = 10
@@ -8,3 +9,4 @@ def calcular_frete(peso):
 peso_item = float(input("Digite o Peso do Item em kg: "))
 frete = calcular_frete(peso_item)
 print(f"O valor do frete é: R${frete:.2f}")
+#--Isaque R.--
